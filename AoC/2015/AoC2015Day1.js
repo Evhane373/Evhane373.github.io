@@ -1,6 +1,7 @@
 function AoC2015D1() {
 	let input = document.getElementById("inp").value;
 	let len = input.length;
+	window.alert(len);
 	let num = 0;
 	
 	for(let x = 0; x < len; x++)
