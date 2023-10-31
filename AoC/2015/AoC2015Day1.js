@@ -1,5 +1,5 @@
 function AoC2015D1() {
-	let input = document.getElementById("inp").value;
+	let input = getElementById("inp").value;
 	let len = input.length;
 	console.log(len);
 	let num = 0;
