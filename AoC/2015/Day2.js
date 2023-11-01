@@ -10,10 +10,9 @@ function Day2Part1(input)
       + (2 * (sides[1] * sides[2]));
       
       sides.sort(function(a, b){return b - a});
-      totalArea += sides[1];
-      
-      return totalArea;
+      totalArea += sides[0];
    }
+   return totalArea;
 }  
 function Day2Part2()
 {
