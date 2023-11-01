@@ -11,6 +11,7 @@ function Day2Part1(input)
       
       sides.sort(function(a, b){return b - a});
       totalArea += sides[0] * sides[1];
+	  console.log(sides);
 	  console.log(totalArea);
    }
    return totalArea;
