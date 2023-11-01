@@ -14,6 +14,7 @@ function Day2Part1(input)
       totalArea += sides[1];
       
       return totalArea;
+   }
 }  
 function Day2Part2()
 {
