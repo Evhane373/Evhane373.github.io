@@ -20,6 +20,8 @@ function getSurfaceArea(dim)
    + (2 * (sides[0] * sides[2]))
    + (2 * (sides[1] * sides[2]))
    + getSmallestSide(dim);
+   console.log(area);
+   return area;
 }
 
 function getSmallestSide(dim)
@@ -35,5 +37,6 @@ function getSmallestSide(dim)
    {
       smallestSide = (sides[1] * sides[2])
    }
+   console.log(smallestSide);
    return smallestSide;
 }
