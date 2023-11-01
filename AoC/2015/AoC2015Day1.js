@@ -14,7 +14,7 @@ function AoC2015D1() {
 		else if(input.charAt(x) == ')')
 		{
 			num -= 1;
-			console.log("+1");
+			console.log("-1");
 		}
 	}
 	window.alert(num)
