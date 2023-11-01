@@ -9,7 +9,7 @@ function Day2Part1(input)
       + (2 * sides[0] * sides[2])
       + (2 * sides[1] * sides[2]);
       
-      sides.sort(function(a, b){return b - a});
+      sides.sort(function(a, b){return a - b});
       totalArea += sides[0] * sides[1];
 	  console.log(sides);
 	  console.log(totalArea);
@@ -23,7 +23,7 @@ function Day2Part2(input)
    for(let x = 0; x < inputArray.length; x++)
    {
       let sides = inputArray[x].split("x");
-      sides.sort(function(a, b){return b - a});
+      sides.sort(function(a, b){return a - b});
       
       let wrap = 2 * sides[0] + 2 * sides[1];
       let bow = sides[0] + sides[1] + sides[2];
