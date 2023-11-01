@@ -8,7 +8,6 @@ function Day2Part1(input)
       totalArea += (2 * (sides[0] * sides[1]))
       + (2 * (sides[0] * sides[2]))
       + (2 * (sides[1] * sides[2]));
-      console.log(area);
       
       sides.sort(function(a, b){return b - a});
       totalArea += sides[1];
