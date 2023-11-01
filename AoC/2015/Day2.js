@@ -19,7 +19,7 @@ function getSurfaceArea(dim)
    area = (2 * (sides[0] * sides[1]))
    + (2 * (sides[0] * sides[2]))
    + (2 * (sides[1] * sides[2]))
-   + smallestSide(dim);
+   + getSmallestSide(dim);
 }
 
 function getSmallestSide(dim)
