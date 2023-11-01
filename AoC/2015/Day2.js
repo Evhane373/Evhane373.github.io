@@ -24,13 +24,9 @@ function Day2Part2(input)
    {
       let sides = inputArray[x].split("x");
       sides.sort(function(a, b){return a - b});
-      
+      Number(sides[0]);
       ribbon += 2 * sides[0] + 2 * sides[1];
-	  console.log(typeof ribbon);
-	  console.log(typeof sides[0]);
-	  console.log(typeof sides[1]);
-	  console.log(typeof sides[2]);
-      ribbon += 1 * (sides[0] + sides[1] + sides[2]);
+	  ribbon += sides[0] + sides[1] + sides[2]);
    }
    return ribbon;
 }
