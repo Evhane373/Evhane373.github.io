@@ -8,7 +8,7 @@ function Day1Part1(input) {
 		if(input.charAt(x) == '(')
 		{
 			num += 1;
-			//console.log("+1");
+			console.log("+1");
 		}
 		else if(input.charAt(x) == ')')
 		{
@@ -29,7 +29,7 @@ function Day1Part2(input)
 		if(input.charAt(x) == '(')
 		{
 			num += 1;
-			//console.log("+1");
+			console.log("+1");
 		}
 		else if(input.charAt(x) == ')')
 		{
