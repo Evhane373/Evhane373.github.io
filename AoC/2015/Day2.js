@@ -1,4 +1,4 @@
-funtion Day2Part1(input)
+function Day2Part1(input)
 {
    let inputArray = input.split("\n");
    let totalArea = 0;
