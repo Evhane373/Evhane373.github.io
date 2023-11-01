@@ -38,7 +38,7 @@ function Day1Part2(input)
 		}
       if(num == -1)
       {
-         return(num)
+         return(x)
       }
 	}
 	window.alert(num)
