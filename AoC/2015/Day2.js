@@ -4,39 +4,26 @@ function Day2Part1(input)
    let totalArea = 0;
    for(let x = 0; x < inputArray.length; x++)
    {
-      totalArea += getSurfaceArea(inputArray[x]);
-   }
-   return totalArea;
-}
+      let sides = inputArray[x].split("x");
+      totalArea += (2 * (sides[0] * sides[1]))
+      + (2 * (sides[0] * sides[2]))
+      + (2 * (sides[1] * sides[2]));
+      console.log(area);
+      
+      sides.sort(function(a, b){return b - a});
+      totalArea += sides[1];
+      
+      return totalArea;
+}  
 function Day2Part2()
 {
-   
-}
-
-function getSurfaceArea(dim)
-{
-   let sides = dim.split("x");
-   area = (2 * (sides[0] * sides[1]))
-   + (2 * (sides[0] * sides[2]))
-   + (2 * (sides[1] * sides[2]))
-   + getSmallestSide(dim);
-   console.log(area);
-   return area;
-}
-
-function getSmallestSide(dim)
-{
-   let sides = dim.split("x");
-   let smallestSide = sides[0] * sides[1];
-   
-   if(smallestSide > (sides[0] * sides[2]))
+   let inputArray = input.split("\n");
+   for(let x = 0; x < inputArray.length; x++)
    {
-      smallestSide = (sides[0] * sides[2])
+      let sides = inputArray[x].split("x");
+      sides.sort(function(a, b){return b - a});
+      
+      
    }
-   if(smallestSide > (sides[1] * sides[2]))
-   {
-      smallestSide = (sides[1] * sides[2])
-   }
-   console.log(smallestSide);
-   return smallestSide;
+   
 }
