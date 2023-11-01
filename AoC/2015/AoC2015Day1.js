@@ -9,12 +9,12 @@ function AoC2015D1() {
 		if(input.charAt(x) == '(')
 		{
 			num += 1;
-			console.log("+1");
+			//console.log("+1");
 		}
 		else if(input.charAt(x) == ')')
 		{
 			num -= 1;
-			console.log("maglubiyet");
+			console.log("-1");
 		}
 	}
 	window.alert(num)
