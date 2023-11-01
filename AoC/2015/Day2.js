@@ -15,7 +15,8 @@ function Day2Part1(input)
 	  console.log(totalArea);
    }
    return totalArea;
-}  
+}
+
 function Day2Part2(input)
 {
    let inputArray = input.split("\n");
@@ -26,7 +27,7 @@ function Day2Part2(input)
       sides.sort(function(a, b){return a - b});
       Number(sides[0]);
       ribbon += 2 * sides[0] + 2 * sides[1];
-	  ribbon += sides[0] + sides[1] + sides[2]);
+	  ribbon += sides[0] + sides[1] + sides[2];
    }
    return ribbon;
 }
