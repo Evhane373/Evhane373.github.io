@@ -30,7 +30,7 @@ function Day2Part2(input)
 	  console.log(typeof sides[0]);
 	  console.log(typeof sides[1]);
 	  console.log(typeof sides[2]);
-      ribbon += sides[0] + sides[1] + sides[2];
+      ribbon += 1 * (sides[0] + sides[1] + sides[2]);
    }
    return ribbon;
 }
