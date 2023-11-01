@@ -41,6 +41,4 @@ function Day1Part2(input)
          return(x)
       }
 	}
-	window.alert(num)
-	return num;
 }
