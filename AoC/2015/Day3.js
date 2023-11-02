@@ -36,6 +36,7 @@ function Day3Part1(input)
 		{
 			houses++;
 		}
+		console.log(houses);
 		visited.push(location);
 	}
 	return houses;
