@@ -16,11 +16,11 @@ function Day3Part1(input)
 		}
 		else if(input.charAt(x) == "<")
 		{
-			location[0]--;
+			location[1]--;
 		}
 		else if(input.charAt(x) == ">")
 		{
-			location[0]++;
+			location[1]++;
 		}
 		console.log(location);
 		
