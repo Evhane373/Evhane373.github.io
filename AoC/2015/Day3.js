@@ -8,6 +8,7 @@ function Day3Part1(input)
 		if(input.charAt(x) == "^")
 		{
 			location[0]++;
+			
 		}
 		else if(input.charAt(x) == "v")
 		{
@@ -21,6 +22,7 @@ function Day3Part1(input)
 		{
 			location[0]++;
 		}
+		console.log(location);
 		
 		let newHouse = true;
 		for(let y = 0; y < visited.length; y++)
