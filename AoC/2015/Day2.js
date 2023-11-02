@@ -25,9 +25,10 @@ function Day2Part2(input)
    {
       let sides = inputArray[x].split("x");
       sides.sort(function(a, b){return a - b});
-      Number(sides);
       ribbon += 2 * sides[0] + 2 * sides[1];
-	  ribbon += sides[0] + sides[1] + sides[2];
+	  ribbon += sides[0];
+	  ribbon += sides[1];
+	  ribbon += sides[2];
    }
    return ribbon;
 }
