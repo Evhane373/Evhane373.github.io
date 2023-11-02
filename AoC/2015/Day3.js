@@ -29,10 +29,10 @@ function Day3Part1(input)
 		{
 			if(location == visited[y])
 			{
-				newhouse = false;
+				newHouse = false;
 			}
 		}
-		if(newhouse == true)
+		if(newHouse == true)
 		{
 			houses++;
 		}
