@@ -27,11 +27,7 @@ function Day2Part2(input)
       sides.sort(function(a, b){return a - b});
       ribbon += 2 * sides[0] + 2 * sides[1];
 	  console.log(typeof ribbon);
-	  ribbon += sides[0];
-	  console.log(typeof ribbon);
-	  ribbon += sides[1];
-	  console.log(typeof ribbon);
-	  ribbon += sides[2];
+	  ribbon += sides[0] * sides[1] * sides[2];
 	  console.log(typeof ribbon);
    }
    return ribbon;
