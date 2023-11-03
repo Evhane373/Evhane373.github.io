@@ -29,9 +29,9 @@ function Day3Part1(input)
 			if(location.toString() == visited[y].toString())
 			{
 				newHouse = false;
+				console.log(newHouse);
 				console.log(location.toString() + " " +  visited[y].toString());
 			}
-			console.log(newHouse);
 		}
 		if(newHouse == true)
 		{
