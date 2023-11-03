@@ -26,7 +26,7 @@ function Day3Part1(input)
 		let newHouse = true;
 		for(let y = 0; y < visited.length; y++)
 		{
-			if(location == visited[y])
+			if(location.toString() == visited[y].toString())
 			{
 				newHouse = false;
 			}
@@ -35,10 +35,9 @@ function Day3Part1(input)
 		{
 			houses++;
 		}
-		console.log(houses);
 		visited.push(location);
 		console.log(location);
-		console.log(visited[x]);
+		console.log(location + "-" + visited[x] + "(" + houses + ")");
 	}
 	return houses;
 }
