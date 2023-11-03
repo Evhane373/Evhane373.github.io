@@ -30,13 +30,13 @@ function Day3Part1(input)
 			{
 				newHouse = false;
 			}
+			console.log(newHouse);
 		}
 		if(newHouse == true)
 		{
 			houses++;
 		}
 		visited.push(location);
-		console.log(location);
 		console.log(location + "-" + visited[x] + "(" + houses + ")");
 	}
 	return houses;
