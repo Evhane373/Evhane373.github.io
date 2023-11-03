@@ -22,7 +22,6 @@ function Day3Part1(input)
 		{
 			location[1]++;
 		}
-		console.log(location);
 		
 		let newHouse = true;
 		for(let y = 0; y < visited.length; y++)
@@ -38,6 +37,8 @@ function Day3Part1(input)
 		}
 		console.log(houses);
 		visited.push(location);
+		console.log(location);
+		console.log(visited[x]);
 	}
 	return houses;
 }
