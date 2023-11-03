@@ -33,8 +33,8 @@ function Day3Part1(input)
 		{
 			houses++;
 		}
-		//visited.push(location);
-		console.log(location + "-" + visited[x] + "(" + houses + ")");
+		visited.push(location);
+		//console.log(location + "-" + visited[x] + "(" + houses + ")");
 	}
 	return houses;
 }
