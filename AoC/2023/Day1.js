@@ -33,6 +33,7 @@ function Day1Part1(input)
 function Day1Part2(input)
 {
 	input = input.replaceAll("oneight", "18");
+	input = input.replaceAll("twone", "21");
 	input = input.replaceAll("threeight", "38");
 	input = input.replaceAll("fiveight", "58");
 	input = input.replaceAll("sevenine", "79");
