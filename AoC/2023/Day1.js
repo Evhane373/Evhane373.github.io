@@ -16,6 +16,7 @@ function Day1Part1(input)
 				if(firstNumber == -1)
 				{
 					firstNumber = inputSplit[x].charAt(y);
+					lastNumber = inputSplit[x].charAt(y);
 				}
 				else
 				{
@@ -24,7 +25,7 @@ function Day1Part1(input)
 			}
 		}
 		console.log('fn:' + firstNumber + ' ln:' + lastNumber);
-		total += (firstNumber * 10) + lastNumber;
+		total += parseInt(firstNumber * 10) + parseInt(lastNumber);
 	}
 	
 	return(total);
