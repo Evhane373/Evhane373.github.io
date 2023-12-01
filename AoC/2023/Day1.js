@@ -26,6 +26,8 @@ function Day1Part1(input)
 			total += (firstNumber * 10) + lastNumber;
 		}
 	}
+	
+	return(total);
 }
 function Day1Part2(input)
 {
