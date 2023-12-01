@@ -1,44 +1,33 @@
-function Day1Part1(input) {
-	let len = input.length;
-	console.log(len);
-	let num = 0;
+function Day1Part1(input) 
+{
+	let firstNumber;
+	let lastNumber;
+	let total = 0;
+	const inputSplit = input.split('\n');
 	
-	for(let x = 0; x < len; x++)
+	for(let x = 0; x < inputSplit.length; x++)
 	{
-		if(input.charAt(x) == '(')
+		firstNumber = -1;
+		lastNumber = -1;
+		for(let y = 0; y < inputSplit[x].length; y++)
 		{
-			num += 1;
-			console.log("+1");
-		}
-		else if(input.charAt(x) == ')')
-		{
-			num -= 1;
-			console.log("-1");
+			if(Number.isNaN(parseInt(inputSplit[x].charAt(y))) == false)
+			{
+				if(firstNumber == -1)
+				{
+					firstNumber = inputSplit[x].charAt(y);
+				}
+				else
+				{
+					lastNumber = inputSplit[x].charAt(y);
+				}
+			}
+			console.log('fn:' + firstNumber + ' ln:' + lastNumber);
+			total += (firstNumber * 10) + lastNumber;
 		}
 	}
-	return num;
 }
 function Day1Part2(input)
 {
-   let len = input.length;
-	console.log(len);
-	let num = 0;
-	
-	for(let x = 0; x < len; x++)
-	{
-		if(input.charAt(x) == '(')
-		{
-			num += 1;
-			console.log("+1");
-		}
-		else if(input.charAt(x) == ')')
-		{
-			num -= 1;
-			console.log("-1");
-		}
-      if(num == -1)
-      {
-         return(x++)
-      }
-	}
+   
 }
