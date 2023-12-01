@@ -22,9 +22,9 @@ function Day1Part1(input)
 					lastNumber = inputSplit[x].charAt(y);
 				}
 			}
-			console.log('fn:' + firstNumber + ' ln:' + lastNumber);
-			total += (firstNumber * 10) + lastNumber;
 		}
+		console.log('fn:' + firstNumber + ' ln:' + lastNumber);
+		total += (firstNumber * 10) + lastNumber;
 	}
 	
 	return(total);
