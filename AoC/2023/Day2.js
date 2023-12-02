@@ -5,6 +5,7 @@ function Day2Part1(input)
    
    for(let x = 0; x < inputLine.length; x++)
    {
+      console.log(inputLine[x]);
       game = inputLine[x].split(':')[0].split(' ')[1];
       console.log(game + "|" + total);
       let valid = true;
