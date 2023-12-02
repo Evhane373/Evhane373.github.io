@@ -27,7 +27,7 @@ function Day2Part1(input)
       }
       if(valid)
       {
-         total += parseInt(game[1].trim());
+         total += parseInt(game);
          console.log("True: " + game + " Total: " + total);
       }
       else
