@@ -5,10 +5,11 @@ function Day2Part1(input)
    
    for(let x = 0; x < inputLine.length; x++)
    {
-      game = inputLine[x].split(':')[0];
+      game = inputLine[x].split(':').split(' ')[1];
       console.log(game);
       let valid = true;
       rolls = inputLine[x].split(':')[1].split(';');
+      console.log(rolls);
       for(let y = 0; y < 3; y++)
       {
          round = rolls[y].split(' ');
