@@ -5,7 +5,7 @@ function Day2Part1(input)
    rolls = input.split(":")[1].split(";");
    console.log(rolls);
    
-   return(game);
+   return(game + rolls[0]);
 }
 function Day2Part2(input)
 {
