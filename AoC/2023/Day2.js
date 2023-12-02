@@ -34,8 +34,7 @@ function Day2Part1(input)
       {
          console.log("False " + game);
       }
-}
-   
+   }
    return(total);
 }
 function Day2Part2(input)
