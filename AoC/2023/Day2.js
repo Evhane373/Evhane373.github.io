@@ -1,5 +1,6 @@
 function Day2Part1(input) 
 {
+   input = input.replaceAll(',', '');
    let inputLine = input.split('\n');
    let total = 0;
    
