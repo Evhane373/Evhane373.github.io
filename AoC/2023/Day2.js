@@ -1,4 +1,4 @@
-function Day1Part1(input) 
+function Day2Part1(input) 
 {
 	game = input.split(":")[0];
    console.log(game);
@@ -7,7 +7,7 @@ function Day1Part1(input)
    
    return(game);
 }
-function Day1Part2(input)
+function Day2Part2(input)
 {
 	
 }
