@@ -83,5 +83,5 @@ function Day2Part2(input)
          console.log(power + "|" redMin + "|" greenMin + "|" blueMin);
       }
    }
-   return(total);
+   return(power);
 }
