@@ -6,7 +6,7 @@ function Day2Part1(input)
    for(let x = 0; x < inputLine.length; x++)
    {
       game = inputLine[x].split(':')[0].split(' ')[1];
-      console.log(game);
+      console.log(game + "|" + total);
       let valid = true;
       rolls = inputLine[x].split(':')[1].split(';');
       for(let y = 0; y < rolls.length; y++)
@@ -27,7 +27,7 @@ function Day2Part1(input)
       }
       if(valid)
       {
-         total += parseInt(game[1]);
+         total += parseInt(game[1].trim());
          console.log("True: " + game + " Total: " + total);
       }
       else
