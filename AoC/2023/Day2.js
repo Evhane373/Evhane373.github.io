@@ -9,10 +9,14 @@ function Day2Part1(input)
       console.log(game);
       let valid = true;
       rolls = inputLine[x].split(':')[1].split(';');
-      console.log(rolls.trim());
       for(let y = 0; y < rolls.length; y++)
       {
-         round = rolls[y].trim().split(' ');
+         rolls[y] = rolls[y].trim();
+      }
+      console.log(rolls);
+      for(let y = 0; y < rolls.length; y++)
+      {
+         round = rolls[y].split(' ');
          for(let z = 0; z < round.length; z+=2)
          {
             if((round[z] > 12 && round[z] == 'red') || (round[z] > 13 && round[z] == 'green') || (round[z] > 14 && round[z] == 'blue'))
