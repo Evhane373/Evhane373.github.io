@@ -23,7 +23,7 @@ function Day2Part1(input)
       }
       if(valid)
       {
-         total += game[1];
+         total += parseInt(game[1]);
       }
    }
    
