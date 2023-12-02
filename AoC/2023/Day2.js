@@ -8,7 +8,7 @@ function Day2Part1(input)
       game = inputLine[x].split(':')[0];
       console.log(game);
       let valid = true;
-      rolls = game[1].split(';');
+      rolls = inputLine[x].split(':')[1].split(';');
       for(let y = 0; y < 3; y++)
       {
          round = rolls[y].split(' ');
