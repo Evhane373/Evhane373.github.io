@@ -19,7 +19,7 @@ function Day2Part1(input)
          round = rolls[y].split(' ');
          for(let z = 0; z < round.length; z+=2)
          {
-            if(((round[z] > 12 && round[z] == 'red') || (round[z] > 13 && round[z] == 'green') || (round[z] > 14 && round[z] == 'blue')) == true)
+            if(((round[z] > 12 && round[z+1] == 'red') || (round[z+1] > 13 && round[z] == 'green') || (round[z+1] > 14 && round[z] == 'blue')) == true)
             {
                valid = false;
             }  
