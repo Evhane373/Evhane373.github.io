@@ -22,12 +22,14 @@ function Day2Part1(input)
             if((round[z] > 12 && round[z] == 'red') || (round[z] > 13 && round[z] == 'green') || (round[z] > 14 && round[z] == 'blue'))
             {
                valid = false;
-            }
+               console.log("False " + game);
+            }  
          }
       }
       if(valid)
       {
          total += parseInt(game[1]);
+         console.log("True: " + game);
       }
    }
    
