@@ -80,7 +80,7 @@ function Day2Part2(input)
             }
          }
          power += redMin * greenMin * blueMin;
-         console.log(power + "|" redMin + "|" greenMin + "|" blueMin);
+         console.log(power + "|" redMin + "|" + greenMin + "|" + blueMin);
       }
    }
    return(power);
