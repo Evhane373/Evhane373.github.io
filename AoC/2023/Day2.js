@@ -6,6 +6,7 @@ function Day2Part1(input)
    for(let x = 0; x < inputLine.length; x++)
    {
       game = inputLine[x].split(':')[0];
+      console.log(game);
       let valid = true;
       rolls = game[1].split(';');
       for(let y = 0; y < 3; y++)
