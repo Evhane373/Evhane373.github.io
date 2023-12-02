@@ -7,9 +7,9 @@ function Day2Part1(input)
    {
       console.log(inputLine[x]);
       game = inputLine[x].split(':')[0].split(' ')[1];
-      console.log(game + "|" + total);
       let valid = true;
       rolls = inputLine[x].split(':')[1].split(';');
+      
       for(let y = 0; y < rolls.length; y++)
       {
          rolls[y] = rolls[y].trim();
@@ -20,7 +20,7 @@ function Day2Part1(input)
          round = rolls[y].split(' ');
          for(let z = 0; z < round.length; z+=2)
          {
-            if(((round[z] > 12 && round[z+1] == 'red') || (round[z+1] > 13 && round[z] == 'green') || (round[z+1] > 14 && round[z] == 'blue')) == true)
+            if(((round[z] > 12 && round[z+1] == 'red') || (round[z+1] > 13 && round[z] == 'green') || (round[z+1] > 14 && round[z] == 'blue')))
             {
                valid = false;
             }  
