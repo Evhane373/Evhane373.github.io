@@ -20,6 +20,7 @@ function Day2Part1(input)
          round = rolls[y].split(' ');
          for(let z = 0; z < round.length; z+=2)
          {
+            console.log(round[z] + " " + round [z+1]);
             if((round[z] > 12 && round[z+1] == 'red') || (round[z] > 13 && round[z+1] == 'green') || (round[z] > 14 && round[z+1] == 'blue'))
             {
                valid = false;
