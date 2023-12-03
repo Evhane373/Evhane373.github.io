@@ -79,9 +79,9 @@ function Day2Part2(input)
                blueMin = round[z];
             }
          }
-         power += redMin * greenMin * blueMin;
-         console.log(power + "|" + redMin + "|" + greenMin + "|" + blueMin);
       }
+      power += redMin * greenMin * blueMin;
+      console.log(power + "|" + redMin + "|" + greenMin + "|" + blueMin);
    }
    return(power);
 }
