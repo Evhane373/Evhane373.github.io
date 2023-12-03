@@ -12,6 +12,21 @@
       <div id = "navbar"><script src = "/navbar/navbar.js"></script></div>
 		<textarea id="inp" rows="12" cols="30" wrap="soft" style="resize:none"></textarea>
 		<br>
+      
+      <table class = "AoCButtons">
+         <tr>
+            <th>Day<th>
+            <th>Part 1</th>
+            <th>Part 2</th>
+            <th>Sample Input</th>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td><input type="button" id="btn_d1p1" value="Day 1 | Part 1" onclick=window.alert(Day1Part1(document.getElementById('inp').value))></td>
+            <td><input type="button" id="btn_d1p2" value="Day 1 | Part 2" onclick=window.alert(Day1Part2(document.getElementById('inp').value))></td>
+            <td>1abc2</td>
+         </tr>
+      </table>
 		<p>
 		<input type="button" id="btn_d1p1" value="Day 1 | Part 1" onclick=window.alert(Day1Part1(document.getElementById('inp').value))>
 		<input type="button" id="btn_d1p2" value="Day 1 | Part 2" onclick=window.alert(Day1Part2(document.getElementById('inp').value))>
