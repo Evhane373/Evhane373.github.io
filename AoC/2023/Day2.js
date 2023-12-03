@@ -66,15 +66,15 @@ function Day2Part2(input)
          for(let z = 0; z < round.length; z+=2)
          {
             console.log(round[z] + "|" + round[z+1]);
-            if(round[z] > redMin && round[z+1] == 'red')
+            if(round[z] > redMin && round[z+1].trim() == 'red')
             {
                redMin = round[z];
             }
-            if(round[z] > greenMin && round[z+1] == 'green')
+            if(round[z] > greenMin && round[z+1].trim() == 'green')
             {
                greenMin = round[z];
             }
-            if(round[z] > blueMin && round[z+1] == 'blue')
+            if(round[z] > blueMin && round[z+1].trim() == 'blue')
             {
                blueMin = round[z];
             }
