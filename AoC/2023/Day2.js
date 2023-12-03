@@ -60,12 +60,12 @@ function Day2Part2(input)
       {
          rolls[y] = rolls[y].trim();
       }
-      console.log(rolls);
       for(let y = 0; y < rolls.length; y++)
       {
          round = rolls[y].split(' ');
          for(let z = 0; z < round.length; z+=2)
          {
+            console.log(round[z] + "|" + round[z+1]);
             if(round[z] > redMin && round[z+1] == 'red')
             {
                redMin = round[z];
