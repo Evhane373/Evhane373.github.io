@@ -3,7 +3,7 @@ function Day3Part1(input)
 	inputSplit = input.Split("\n");
    for(let x = 0; x < inputSplit.length; x++)
    {
-      for(let y = 0; y < inputSplit[x].length; y++;)
+      for(let y = 0; y < inputSplit[x].length; y++)
       {
          if(!Number.isNaN(inputSplit[x].charAt[y].isNaN))
          {
