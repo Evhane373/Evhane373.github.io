@@ -46,6 +46,7 @@ bio
 img
 {
    border-radius: 35%;
+   object-fit: cover;
 }
 
 table, th, td
