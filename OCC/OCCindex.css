@@ -52,9 +52,7 @@ img
 
 images
 {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+   text-align: center;
 }
 
 table, th, td
