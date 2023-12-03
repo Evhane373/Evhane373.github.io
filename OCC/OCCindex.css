@@ -19,6 +19,14 @@ h2
   font-size: 33px;
 }
 
+h3
+{
+  color: firebrick;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 12px;
+}
+
 p 
 {
   font-family: verdana;
