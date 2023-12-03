@@ -1,7 +1,7 @@
 function insertNav(currentPage)
 {
-   document.getElementByID("navbar").innerHTML = 
-   `<link rel="stylesheet" href="navbar.css">
+   document.getElementByID("navbar").innerHTML = `
+   <link rel="stylesheet" href="navbar.css">
       <div class="navbar">
          <a href="/">Home</a>
          <div class="dropdown">
@@ -14,11 +14,4 @@ function insertNav(currentPage)
             </div>
          </div>
       </div>`;
-}
-
-async function loadNavbar() 
-{
-   let navbar = await fetch("navbar.html");
-   let navHTML = await navbar.text();
-   return(navHTML);
 }
