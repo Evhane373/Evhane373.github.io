@@ -1,20 +1,29 @@
-body {
+body 
+{
   background-color: deepskyblue;
 }
 
-h1 {
+h1 
+{
   color: white;
   text-align: center;
   font-family: Garamond;
 }
 
-p {
+p 
+{
   font-family: verdana;
   font-size: 20px;
 }
 
-iframe {
+iframe 
+{
    width: 100%;
    position: fixed;
    border: none;
+}
+
+bio
+{
+   text-align: center;
 }
