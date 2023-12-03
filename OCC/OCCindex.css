@@ -3,11 +3,20 @@ body
   background-color: deepskyblue;
 }
 
-h1 
+h1
 {
   color: firebrick;
   text-align: center;
   font-family: Garamond;
+  font-size: 42px;
+}
+
+h2
+{
+  color: firebrick;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 33px;
 }
 
 p 
