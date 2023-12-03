@@ -1,4 +1,4 @@
-function Day1Part1(input) 
+function Day3Part1(input) 
 {
 	inputSplit = input.Split("\n");
    for(let x = 0; x < inputSplit.length; x++)
@@ -29,7 +29,7 @@ function Day1Part1(input)
    }
    return("Testing");
 }
-function Day1Part2(input)
+function Day3Part2(input)
 {
 	
 }
