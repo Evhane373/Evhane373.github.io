@@ -1,6 +1,6 @@
 function Day3Part1(input) 
 {
-	inputSplit = input.Split("\n");
+	inputSplit = input.split("\n");
    for(let x = 0; x < inputSplit.length; x++)
    {
       for(let y = 0; y < inputSplit[x].length; y++)
