@@ -29,7 +29,7 @@
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .navdropdown:hover .navdropdownbtn {
   background-color: red;
 }
 
@@ -55,6 +55,6 @@
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.navdropdown:hover .dropdown-content {
   display: block;
 }
