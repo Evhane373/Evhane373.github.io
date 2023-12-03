@@ -5,7 +5,8 @@ function Day3Part1(input)
    {
       for(let y = 0; y < inputSplit[x].length; y++)
       {
-         if(!Number.isNaN(inputSplit[x].charAt[y].isNaN))
+         console.log(inputSplit(x));
+         if(!Number.isNaN(inputSplit[x].charAt[y]))
          {
             let num = inputSplit[x].charAt[y];
             //Check to the right for more numbers
