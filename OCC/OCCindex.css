@@ -6,7 +6,11 @@ body
 h1
 {
   color: firebrick;
-  text-shadow: 1px 1px 0px black, -1px -1px 0px black;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 42px;
@@ -15,7 +19,11 @@ h1
 h2
 {
   color: firebrick;
-  text-shadow: 1px 1px 0px black, -1px -1px 0px black;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 33px;
@@ -24,7 +32,11 @@ h2
 h3
 {
   color: firebrick;
-  text-shadow: 1px 1px 0px black, -1px -1px 0px black;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 12px;
