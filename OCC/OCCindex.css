@@ -66,15 +66,22 @@ table, th, td
 
 .fav
 {
-   
+   border: 3px solid firebrick;
+   padding: 33px;
 }
 
 .favGames
 {
-   
+   width: 50%;
+   float: left;
+   padding: 12px;
+   border: 1px solid red
 }
 
 .favMovies
 {
-   
+   width: 50%;
+   float: left;
+   padding: 12px;
+   border: 1px solid red
 }
