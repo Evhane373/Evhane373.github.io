@@ -54,8 +54,9 @@ table, th, td
 {
    border: 3px solid;
    border-collapse: collapse;
-   background-color: 046A38;
-   color: ghostwhite;
+   color: ghostwhite; 
+   background-color: #046A38;
+   border-color: black;
 }
 
 .images
