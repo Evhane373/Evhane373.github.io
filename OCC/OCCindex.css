@@ -1,11 +1,11 @@
 body 
 {
-  background-color: deepskyblue;
+  background-color: #84cee6;
 }
 
 h1
 {
-  color: red;
+  color: #a53a4a;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -18,7 +18,7 @@ h1
 
 h2
 {
-  color: firebrick;
+  color: #a53a4a;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -31,7 +31,7 @@ h2
 
 h3
 {
-  color: firebrick;
+  color: #a53a4a;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
