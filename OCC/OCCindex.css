@@ -16,11 +16,9 @@ p
   font-size: 20px;
 }
 
-iframe 
+ul
 {
-   width: 100%;
-   position: fixed;
-   border: none;
+   padding-left: 20px;
 }
 
 bio
