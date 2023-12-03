@@ -48,7 +48,6 @@ function Day2Part2(input)
    
    for(let x = 0; x < inputLine.length; x++)
    {
-      console.log(inputLine[x]);
       game = inputLine[x].split(':')[0].split(' ')[1];
       rolls = inputLine[x].split(':')[1].split(';');
       
