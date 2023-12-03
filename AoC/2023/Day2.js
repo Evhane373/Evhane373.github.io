@@ -70,11 +70,11 @@ function Day2Part2(input)
             {
                redMin = round[z];
             }
-            else if(round[z] > greenMin && round[z+1] == 'green')
+            if(round[z] > greenMin && round[z+1] == 'green')
             {
                greenMin = round[z];
             }
-            else if(round[z] > blueMin && round[z+1] == 'blue')
+            if(round[z] > blueMin && round[z+1] == 'blue')
             {
                blueMin = round[z];
             }
