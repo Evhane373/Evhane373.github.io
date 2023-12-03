@@ -7,7 +7,7 @@ h1
 {
   color: firebrick;
   text-align: center;
-  font-family: Garamond;
+  font-family: Garamond, Arial;
   font-size: 42px;
 }
 
@@ -15,7 +15,7 @@ h2
 {
   color: firebrick;
   text-align: center;
-  font-family: Garamond;
+  font-family: Garamond, Arial;
   font-size: 33px;
 }
 
@@ -23,7 +23,7 @@ h3
 {
   color: firebrick;
   text-align: center;
-  font-family: Garamond;
+  font-family: Garamond, Arial;
   font-size: 12px;
 }
 
@@ -40,6 +40,7 @@ ul
 
 bio
 {
+   font-family: Luminari, Garamond, Arial;
    text-align: center;
 }
 
