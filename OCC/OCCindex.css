@@ -50,13 +50,13 @@ img
    object-fit: cover;
 }
 
-images
-{
-   text-align: center;
-}
-
 table, th, td
 {
    border: 3px solid;
    border-collapse: collapse;
+}
+
+.images
+{
+   text-align: center;
 }
