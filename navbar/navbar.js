@@ -1,7 +1,7 @@
 function insertNavbar() {
   const target = document.getElementById('navbar');
 
-  fetch('home.html')
+  fetch('/navbar/navbar.html')
     .then(response => response.text())
     .then(html => {
       target.innerHTML = html;
