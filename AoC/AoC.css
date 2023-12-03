@@ -19,3 +19,12 @@ textarea
 {
    padding: 10px;
 }
+
+table, th, td
+{
+   border: 1px solid;
+   border-collapse: collapse;
+   color: #a53a4a; 
+   background-color: #046A38;
+   border-color: black;
+}
