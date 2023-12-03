@@ -72,7 +72,7 @@ table, th, td
 
 .favGames
 {
-   width: 50%;
+   width: 40%;
    float: left;
    padding: 12px;
    border: 1px solid red
@@ -80,7 +80,7 @@ table, th, td
 
 .favMovies
 {
-   width: 50%;
+   width: 40%;
    float: right;
    padding: 12px;
    border: 1px solid red
