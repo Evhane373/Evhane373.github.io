@@ -7,6 +7,7 @@ h1
 {
   color: firebrick;
   text-shadow: 1px 1px 0px black;
+  text-shadow: -1px -1px 0px black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 42px;
@@ -16,6 +17,7 @@ h2
 {
   color: firebrick;
   text-shadow: 1px 1px 0px black;
+  text-shadow: -1px -1px 0px black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 33px;
@@ -25,6 +27,7 @@ h3
 {
   color: firebrick;
   text-shadow: 1px 1px 0px black;
+  text-shadow: -1px -1px 0px black;
   text-align: center;
   font-family: Garamond, Arial;
   font-size: 12px;
