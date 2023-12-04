@@ -1,4 +1,4 @@
-function Day4Part1()
+function Day4Part1(input)
 {
 	input = input.split('\n');
 	let totalScore = 0;
@@ -36,7 +36,7 @@ function Day4Part1()
 	return(totalScore);
 }
 
-function Day4Part2()
+function Day4Part2(input)
 {
 	return('Not yet');
 }
