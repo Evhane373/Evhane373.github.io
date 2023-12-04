@@ -38,5 +38,5 @@ function Day4Part1()
 
 function Day4Part2()
 {
-	
+	return('Not yet');
 }
