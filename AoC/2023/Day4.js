@@ -11,10 +11,10 @@ function Day4Part1(input)
 		
 		let wNumbers = numbers.split('|')[0].trim().split(' ');
 		let yNumbers = numbers.split('|')[1].trim().split(' ');
-		
-		for(let y = 0; y < wNumbers.split(' ').length(); y++)
+		console.log(card + numbers + '\n' + wNumbers + '|' + yNumbers);
+		for(let y = 0; y < wNumbers.length(); y++)
 		{
-			for(let z = 0; z < yNumbers.split(' ').length(); z++)
+			for(let z = 0; z < yNumbers.length(); z++)
 			{
 				if(parseInt(wNumbers[y]) == parseInt(yNumbers[z]))
 				{
