@@ -33,7 +33,7 @@ function Day4Part1()
 		console.log(cardScore + '|' + totalScore);
 		totalScore += cardScore;
 	}
-	return(
+	return(totalScore);
 }
 
 function Day4Part2()
