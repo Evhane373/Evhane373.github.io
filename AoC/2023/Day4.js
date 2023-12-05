@@ -31,7 +31,6 @@ function Day4Part1(input)
 		}
 		totalScore += cardScore;
 		console.log(cardScore + '|' + totalScore);
-		totalScore += cardScore;
 	}
 	return(totalScore);
 }
