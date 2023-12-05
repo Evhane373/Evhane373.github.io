@@ -12,6 +12,6 @@ function Day5Part2(input)
 function getSeeds(input)
 {
 	let inputSplit = input.split('\n');
-	let seeds = inputSplit[0].split(':')[1].split(' ');
+	let seeds = inputSplit[0].split(':')[1].trim().split(' ');
 	return(seeds);
 }
