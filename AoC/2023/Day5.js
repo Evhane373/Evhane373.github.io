@@ -1,10 +1,10 @@
-function Day4Part1(input)
+function Day5Part1(input)
 {
 	let seeds = getSeeds(input);
 	console.log(seeds);
 }
 
-function Day4Part2(input)
+function Day5Part2(input)
 {
 	
 }
