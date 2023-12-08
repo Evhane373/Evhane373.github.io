@@ -1,73 +1,44 @@
 function Day4Part1(input)
 {
-	input = input.split('\n');
-	let totalScore = 0;
-	for(let x = 0; x < input.length; x++)
+	let total = 0;
+	cardList = splitInput(input);
+	for(let x = 0; x < cardList.length; x++)
 	{
-		let card = input[x].split(':')[0];
-		let cardScore = 0;
-		let numbers = input[x].split(':')[1].trim();
-		console.log(card + numbers);
-		
-		let wNumbers = numbers.split('|')[0].trim().split(' ');
-		let yNumbers = numbers.split('|')[1].trim().split(' ');
-		console.log(card + numbers + '\n' + wNumbers + '|' + yNumbers);
-		for(let y = 0; y < wNumbers.length; y++)
+		let cardVal = checkCard(cardList[x].split(':')[1]);
+		if(cardVal > 0)
 		{
-			for(let z = 0; z < yNumbers.length; z++)
-			{
-				if(parseInt(wNumbers[y]) == parseInt(yNumbers[z]))
-				{
-					if(cardScore == 0)
-					{
-						cardScore += 1;
-					}
-					else
-					{
-						cardScore *= 2;
-					}
-				}
-			}
+			total += 2 ** (cardVal - 1);
 		}
-		totalScore += cardScore;
-		console.log(cardScore + '|' + totalScore);
 	}
-	return(totalScore);
+	return(total);
 }
 
 function Day4Part2(input)
 {
+	
+}
+
+function splitInput(input)
+{
 	input = input.split('\n');
-	let totalScore = 0;
-	const copies = [];
-	for(let x = 0; x < input.length; x++)
+	return(input);
+}
+
+function checkCard(numbers)
+{
+	let numMatch = 0;
+	winNumbers = numbers.split('|')[0].trim().split(' ');
+	pickNumbers = numbers.split('|')[1].trim().split(' ');
+	
+	for(let x = 0; x < winNumbers.length; x++)
 	{
-		let card = input[x].split(':')[0];
-		let cardScore = 0;
-		let numbers = input[x].split(':')[1].trim();
-		console.log(card + numbers);
-		
-		let wNumbers = numbers.split('|')[0].trim().split(' ');
-		let yNumbers = numbers.split('|')[1].trim().split(' ');
-		console.log(card + numbers + '\n' + wNumbers + '|' + yNumbers);
-		for(let y = 0; y < wNumbers.length; y++)
+		for(let y = 0; y < pickNumbers.length; y++)
 		{
-			for(let z = 0; z < yNumbers.length; z++)
+			if(winNumbers[x] == pickNumbers[y])
 			{
-				if(parseInt(wNumbers[y]) == parseInt(yNumbers[z]))
-				{
-					cardScore += 1;
-				}
+				numMatch++; 
 			}
 		}
-		for(let y = 0; y < cardScore; y++)
-		{
-			copies.append(input[x+y])
-		}
-		
-		
-		totalScore += cardScore;
-		console.log(cardScore + '|' + totalScore);
 	}
-	return(totalScore);
+	return(numMatch);
 }
