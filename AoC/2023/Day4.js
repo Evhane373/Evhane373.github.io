@@ -38,6 +38,7 @@ function checkCard(numbers)
 			if(winNumbers[x] == pickNumbers[y])
 			{
 				numMatch++; 
+				console.log(pickNumbers[x]);
 			}
 		}
 	}
