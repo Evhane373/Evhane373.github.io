@@ -9,6 +9,7 @@ function Day4Part1(input)
 		{
 			total += 2 ** (cardVal - 1);
 		}
+		console.log(total + '|' + cardVal);
 	}
 	return(total);
 }
